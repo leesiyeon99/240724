@@ -1,0 +1,15 @@
+인터페이스의 실전 활용 예시
+자유롭게 원하는 게임을 하나 선정 후, 어떤 기능에 어떻게 인터페이스가 활용되면 좋을 지 서술하시오.
+
+게임 : 포켓몬
+
+인터페이스: Iattackable Icatchable Ihealable Iuseable
+Iattackable를 통해 포켓몬을 공격하고 공격받은 포켓몬은 hp가 내려갈수록 잡힐 확률이 증가
+Icatchable을 통해 포켓몬을 잡을 수 있다. 몬스터볼, 슈퍼볼, 하이퍼볼 등 볼에 따라 잡힐 확률이 다르다
+Ihealable 포켓몬은 아이템을 사용하여 치료하거나 포켓몬 센터에서 치료 할 수 있다.
+Iuseable 포켓몬이 더 잘 등장하는 아이템, 포켓몬이 등장하지 않는 아이템을 만들어 사용할 수 있다.
+
+가지고 있는 포켓몬은 Iattackable, Ihealable의 인터페이스를 가질 것이고
+야생포켓몬은 Icatchable, Iattackabled
+포켓몬센터는 Ihealable
+포켓몬 트레이너는 Iattackable Icatchable Ihealable Iuseable 가질 수 있을 것이다.
